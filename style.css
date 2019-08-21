@@ -1,0 +1,342 @@
+nav{
+    background-color:#EC715F;
+width:100%;
+height:70px;
+}
+.nav_contain{width:1024px;
+    height:70px;
+    margin:0 auto;
+    background-color:#EC715F;}
+.logo_img{height:70px;}
+.nav_list{font-size:16px;
+         color:#FAFAFA;
+         float:right;
+         margin-right:30px;
+        margin-top:22px; }
+.main_visual{clear:both;
+            width:100%;
+                    height:650px;
+                    background-image: url("img/mv.png");
+                    background-size:cover;
+                }
+.main_visual_big_title{font-size:64px;
+color:#FAFAFA;
+padding-top:200px;
+margin:0px;
+text-align: center;}
+.main_visual_little_title{font-size:20px;
+    color:#FAFAFA;
+    margin-top:10px;
+    text-align: center;
+    }
+.portfolio{background-color:#ECEFF1;
+            width:100%;
+        height:100%;}
+.main_portfolio{background-color:#ECEFF1;
+                margin:0 auto;
+                width:920px;}
+.title{font-size:32px;
+    text-align: center;
+margin:0px;
+font-weight: bold;
+padding-top:90px;}
+.title_underline{height:3px;
+                        width:70px;
+                    margin:0 auto;
+                    background-color:#EC715F;
+                    text-align: center;}
+.text{text-align: center;}    
+.portfolio_img{float:left;
+    width:300px;
+                height:250px;
+            margin-top:10px;
+            margin-right:10px;
+            background-size:cover;
+        background-position:center;}
+.portfolio_img1{background-image: url("img/sketch.jpg");
+                }
+.portfolio_img2{background-image: url("img/websuku.png");
+                }
+.portfolio_img3{background-image: url("img/write.jpg");
+    margin-right:0px;
+                }
+.portfolio_img4{background-image: url("img/webcamp.png");
+    clear: both;
+                }
+.portfolio_img5{background-image: url("img/talk.jpg");
+                                }                               
+.portfolio_img6{background-image: url("img/webcamp-mother.png");
+    margin-right:0px;
+}
+.portfolio_img_wrapper{width:920px;
+                        height:610px;
+                        background-color:#ECEFF1;
+                    margin-top:30px;}
+.feature{width:100%;}
+.main_feature{ margin:0 auto;
+                 width:980px;}
+.feature_box_wrapper{width:990px;
+   
+background-color:rgb(0, 70, 128);
+margin-bottom:90px;}
+.feature_box{
+    width:320px;
+    margin:0px;
+margin-right:10px;
+float:left;
+word-break: break-all;}
+.feature_box_title{font-size:30px;
+                    margin:0px;
+                    padding:0px;
+                    
+                    text-align:center;
+                    margin-top:10px;
+                    margin-bottom:10px;
+                    }
+.clear_both{clear:both;}
+.social{font-size:60px;
+text-align:center;}
+.profile{background-color:#ECEFF1;
+    height:600px;}
+.main_profile{margin:0 auto;
+    width:1024px;
+    background-color:#ECEFF1;
+height:600px;}
+.profile_img_box{width:512px;
+                float:left;
+                text-align:center;
+                margin:0px;
+                padding:0px;
+                margin-top:30px;
+                background-color:#ECEFF1;}
+.profile_text_box{width:512px;
+    float:left;}
+.profile_img{width:250px;
+height:250px;
+border-radius: 125px;
+}
+.profile_myname_title{font-size:20px;
+margin:0px;
+padding:0px;
+margin-top:30px;
+margin-bottom:5px;}
+.profile_myname_text{font-size:16px;
+    margin:0px;
+    padding:0px;}
+.profile_myskills_title{font-size:20px;}
+.profile_myskills_text{font-size:20px;}
+.main_contact{margin:0 auto;
+    width:800px;
+height:450px;}
+.contact_mailtell_box{width:400px;
+    margin-top:30px;
+float:left;
+}
+.contact_mailtell_little_box{margin:0 auto;
+width:200px;}
+.contact_mail_title{font-size:20px;
+margin:0px;
+margin-bottom:5px;}
+.contact_mail_text{font-size:16px;
+    margin:0px;
+    margin-bottom:20px;}
+.contact_tell_title{font-size:20px;
+    margin:0px;
+    margin-bottom:5px;}
+.contact_tell_text{font-size:16px;}
+.contact_sns_box{width:400px;
+    float:left;
+margin-top:30px;}
+.contact_sns_little_box{width:300px;
+margin:0 auto;}
+.contact_sns_title{font-size:20px;
+margin:0px;
+margin-bottom:5px;}
+.fab{font-size:50px;
+margin-right:20px;}
+footer{background-color:#EC715F;
+    width:100%;
+    height:60px;
+font-size:16px;
+color:#FAFAFA;
+text-align:center;
+}
+.footer_text{padding-top:22px;}
+*{margin:0px;
+padding:0px;}
+
+@media screen and (max-width:767px) {
+   nav{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.nav_contain{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.main_visual{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.main_portfolio{width:90%;
+    height:1850px;;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.portfolio_img_wrapper{width:90%;
+margin-right:5%;
+margin-left:5%;
+margin:0 auto;
+text-align:center;}
+.portfolio_img{width:90%;
+    margin-right:5%;
+    margin-left:5%;}
+.main_feature{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.feature_box_wrapper{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.feature_box{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.main_profile{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;}
+.profile{background-color:#ECEFF1;
+    height:800px;}
+.profile_img_box{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;
+}
+.profile_text_box{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;
+text-align:center;}
+.main_contact{width:90%;
+    margin-right:5%;
+margin-left:5%;
+margin:0 auto;
+text-align:center;
+height:600px;
+clear:both;
+}
+.contact_mailtell_box{
+    margin:0 auto;
+    widows: 100%;
+    /* height:300px; */
+    float:none;
+}
+.contact_sns_box{margin:0 auto;
+    text-align: center;
+    float:none;}
+.contact_wrapper{
+    width:100%;
+    float:none;
+}
+
+
+
+
+.nav_list{display: none;}
+#nav-drawer {
+    position: relative;
+    float:right;
+  }
+  
+  /*チェックボックス等は非表示に*/
+  .nav-unshown {
+    display:none;
+  }
+  
+  /*アイコンのスペース*/
+  #nav-open {
+    display: inline-block;
+    width: 15px;
+    height:11px;
+    vertical-align: middle;
+  }
+  
+  /*ハンバーガーアイコンをCSSだけで表現*/
+  #nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;
+    height: 3px;/*線の太さ*/
+    width: 25px;/*長さ*/
+    border-radius: 3px;
+    background: #555;
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+  #nav-open span:before {
+    bottom: -8px;
+  }
+  #nav-open span:after {
+    bottom: -16px;
+  }
+  
+  /*閉じる用の薄黒カバー*/
+  #nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+  
+  /*中身*/
+  #nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+    max-width: 330px;/*最大幅（調整してください）*/
+    height: 100%;
+    background: #fff;/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);/*左に隠しておく*/
+  }
+  
+  /*チェックが入ったらもろもろ表示*/
+  #nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+  }
+  
+  #nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+  }
+  .nav_list_inHamburger {font-size:16px;
+    color:#000;
+    
+    margin-right:30px;
+   margin-top:22px; }
+
+   .main_visual{clear:both;
+    width:90%;
+            height:650px;
+            background-image: url("img/code.png");
+            background-size:cover;
+        }
+    
+}
+
+
+
+
