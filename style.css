@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #nav-drawer {
+    display:none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 nav{
     background-color:#EC715F;
 width:100%;
@@ -44,7 +56,8 @@ padding-top:90px;}
                         width:70px;
                     margin:0 auto;
                     background-color:#EC715F;
-                    text-align: center;}
+                    text-align: center;
+                    margin-bottom:30px;}
 .text{text-align: center;}    
 .portfolio_img{float:left;
     width:300px;
@@ -84,7 +97,8 @@ margin-bottom:90px;}
     margin:0px;
 margin-right:10px;
 float:left;
-word-break: break-all;}
+word-break: break-all;
+margin-bottom:90px;}
 .feature_box_title{font-size:30px;
                     margin:0px;
                     padding:0px;
@@ -179,7 +193,7 @@ margin:0 auto;}
 margin-left:5%;
 margin:0 auto;}
 .main_portfolio{width:90%;
-    height:1850px;;
+    height:1150px;;
     margin-right:5%;
 margin-left:5%;
 margin:0 auto;}
@@ -202,7 +216,7 @@ margin:0 auto;}
 .feature_box{width:90%;
     margin-right:5%;
 margin-left:5%;
-margin:0 auto;}
+/*margin:0 auto;*/}
 .main_profile{width:90%;
     margin-right:5%;
 margin-left:5%;
@@ -212,7 +226,7 @@ margin:0 auto;}
 .profile_img_box{width:90%;
     margin-right:5%;
 margin-left:5%;
-margin:0 auto;
+/*margin:0 auto;*/
 }
 .profile_text_box{width:90%;
     margin-right:5%;
@@ -245,7 +259,7 @@ clear:both;
 
 
 .nav_list{display: none;}
-#nav-drawer {
+#nav-drawer {display:inline;
     position: relative;
     float:right;
   }
@@ -334,6 +348,8 @@ clear:both;
             background-image: url("img/code.png");
             background-size:cover;
         }
+
+        .portfolio_img_ResponsHidden{display:none;}
     
 }
 
